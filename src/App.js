@@ -1,5 +1,10 @@
+import Login from "./components/Login"
 function App() {
-  return <div className="App">Hello, Eddah</div>;
-}
-
-export default App;
+    return (
+        <div className="flex flex-row">
+            <Login/>
+        </div>
+    );
+  }
+  
+  export default App;
